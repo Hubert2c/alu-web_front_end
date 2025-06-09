@@ -1,0 +1,26 @@
+/* Style all labels */
+label {
+  cursor: pointer;
+  display: block;
+  white-space: nowrap;
+  font-size: 1.4rem;
+  padding: 0 0 0.5rem 0;
+}
+
+/* Button primary and hover */
+.button-primary {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.button-primary:hover,
+.button-primary:focus {
+  background-color: #0056b3;
+  outline: none;
+}

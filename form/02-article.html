@@ -1,0 +1,49 @@
+<!-- 02-article.html (partial) -->
+
+<section class="post-comments">
+  <header>
+    <h2 class="section-title">Comments</h2>
+    <p>Share your thoughts with us!</p>
+  </header>
+
+  <form action="#" method="post" novalidate>
+    <!-- First fieldset -->
+    <fieldset>
+      <legend class="visually-hidden">Your personal information</legend>
+
+      <div class="form-group col-1-2">
+        <label for="name">Name *</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+
+      <div class="form-group col-1-2">
+        <label for="email">Email *</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+
+      <div class="form-group col-2-3">
+        <label for="website">Website</label>
+        <input type="url" id="website" name="website" />
+      </div>
+    </fieldset>
+
+    <!-- Second fieldset -->
+    <fieldset>
+      <legend class="visually-hidden">Your comment</legend>
+
+      <div class="form-group col-2-3">
+        <label for="comment-title">Title</label>
+        <input type="text" id="comment-title" name="comment-title" />
+      </div>
+
+      <div class="form-group col-2-3">
+        <label for="comment">Comment *</label>
+        <textarea id="comment" name="comment" required></textarea>
+      </div>
+
+      <div class="form-group">
+        <button type="submit">Submit Comment</button>
+      </div>
+    </fieldset>
+  </form>
+</section>
