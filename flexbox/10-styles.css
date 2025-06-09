@@ -1,0 +1,28 @@
+/* Section HERO section */
+
+.section-hero {
+  position: relative;
+  margin-top: -8.5rem;
+}
+
+.section-hero .section-body {
+  padding: 10rem 4rem;
+}
+
+.section-hero .section-category {
+  color: var(--color-white);
+  text-transform: uppercase;
+}
+
+.hero-homepage {
+  /* moved from .section-hero */
+  /* include all previous declarations from .section-hero here */
+
+  /* example from previous task might have included: */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-height: 50vh;
+  /* add any other declarations that were inside .section-hero */
+}

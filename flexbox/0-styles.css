@@ -1,0 +1,26 @@
+/* Grid section */
+
+.row {
+  display: flex; /* Make children flex items */
+  flex-wrap: wrap; /* Optional: wrap items to next line if needed */
+}
+
+/* Remove this block completely */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Adjust columns */
+[class*='col-'] {
+  /* REMOVE float: left; */
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+/* Example: half width columns */
+.col-6 {
+  flex: 0 0 50%; /* Same as width: 50% but using flexbox */
+  max-width: 50%;
+}

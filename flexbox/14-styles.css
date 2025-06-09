@@ -1,0 +1,31 @@
+/* Post Share Social Navigation
+   ============================= */
+.post-share .social-nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1.5rem; /* space between icons */
+}
+
+.post-share .social-nav-list li {
+  display: inline-block;
+}
+
+.post-share .social-nav-list a {
+  color: var(--color-primary);
+  font-size: 1.8rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.post-share .social-nav-list a:hover,
+.post-share .social-nav-list a:focus {
+  color: var(--color-secondary);
+  outline: none;
+}
+
+/* Optional: if using FontAwesome or similar icons */
+.post-share .social-nav-list i {
+  vertical-align: middle;
+}

@@ -1,0 +1,19 @@
+/* Variables section */
+:root {
+  /* Change this variable */
+  --nav-item-margin: 0 0 0 2rem;
+}
+
+/* Navbar section ============================= */
+
+nav {
+  display: flex;
+}
+
+nav .nav-item {
+  /* Removed display declaration here */
+}
+
+nav .nav-item + .nav-item {
+  margin: var(--nav-item-margin);
+}

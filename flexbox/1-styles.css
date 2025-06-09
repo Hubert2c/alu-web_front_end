@@ -1,0 +1,35 @@
+.section-services {
+  /* Styles for the services section */
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+}
+
+.section-works {
+  /* Styles for the works section */
+  background-color: #ffffff;
+  padding: 40px 20px;
+}
+
+.section-about-us {
+  /* Styles for the about us section */
+  background-color: #f0f0f0;
+  padding: 40px 20px;
+}
+
+.section-latest-news {
+  /* Styles for the latest news section */
+  background-color: #fafafa;
+  padding: 40px 20px;
+}
+
+.section-testimonial {
+  /* Styles for the testimonial section */
+  background-color: #e9ecef;
+  padding: 40px 20px;
+}
+
+.section-contact {
+  /* Styles for the contact section */
+  background-color: #ffffff;
+  padding: 40px 20px;
+}
