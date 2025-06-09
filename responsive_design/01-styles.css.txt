@@ -1,0 +1,19 @@
+/* Hero Homepage
+============================= */
+.hero-homepage {
+  background-image: url("../images/hero-banner.jpg"); /* or your image path */
+  background-repeat: no-repeat;
+  background-position: 65% 8rem;
+  background-size: 90rem auto;
+  background-color: var(--color-light-grey);
+}
+
+/* Hero Section Inner
+============================= */
+.section-hero .section-inner {
+  min-height: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}

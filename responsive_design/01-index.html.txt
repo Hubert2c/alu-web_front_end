@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hero Banner Fix</title>
+  <link rel="stylesheet" href="01-styles.css" />
+</head>
+<body>
+  <header class="hero-homepage">
+    <section class="section-hero">
+      <div class="section-inner">
+        <h1>Welcome to Our Site</h1>
+        <p>Your one-stop resource for amazing content.</p>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <!-- Other content here -->
+  </main>
+
+  <footer>
+    <!-- Footer content -->
+  </footer>
+</body>
+</html>
